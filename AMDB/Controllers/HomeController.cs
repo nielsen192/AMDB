@@ -13,9 +13,9 @@ namespace AMDB.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Movies()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application movie list";
 
             return View();
         }
